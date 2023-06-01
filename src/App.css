@@ -1,0 +1,40 @@
+.btn:focus{
+  box-shadow: none!important;
+  outline: none!important;
+}
+
+.btn-clr {
+  height: 40px;
+  line-height: 36px;
+  padding: 0 22px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(95deg, #059dff 15%, #6549d5 45%, #e33fa1 75%, #fb5343) 95%/200% 100%;
+  transition-duration: .3s;
+  letter-spacing: 0.5px;
+}
+
+.btn-clr:hover {
+  box-shadow: 0 0 20px 5px rgba(251, 83, 67, 0.2);
+  filter: brightness(125%);
+}
+.bg-img {
+  background: url(../public/assert/image/bg-image-13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+.title-text {
+  transition: all 0.7s ease-out;
+}
+
+.title-text:hover {
+  color: #059dff !important;
+  cursor: pointer;
+}
+.nav-link{
+  color: #000
+}
